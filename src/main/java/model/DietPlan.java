@@ -118,14 +118,12 @@ public class DietPlan {
 
     @Override
     public String toString() {
-        return "{" +
-            " planId='" + getPlanId() + "'" +
-            ", patient='" + getPatient() + "'" +
-            ", dietitian='" + getDietitian() + "'" +
-            ", dailyCalories='" + getDailyCalories() + "'" +
-            ", macronutrientDistribution='" + getMacronutrientDistribution() + "'" +
-            ", specificRecommendations='" + getSpecificRecommendations() + "'" +
-            "}";
+        return "Diet Plan ID: " + planId +
+                ", Patient: " + patient.getName() +
+                ", Dietitian: " + dietitian.getName() +
+                ", Daily Calories: " + dailyCalories +
+                ", Macronutrient Distribution: " + macronutrientDistribution +
+                ", Specific Recommendations: " + specificRecommendations;
     }
     
 }

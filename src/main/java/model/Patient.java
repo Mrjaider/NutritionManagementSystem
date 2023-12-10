@@ -120,14 +120,12 @@ public class Patient {
 
     @Override
     public String toString() {
-        return "{" +
-                " patientId='" + getPatientId() + "'" +
-                ", name='" + getName() + "'" +
-                ", age='" + getAge() + "'" +
-                ", weight='" + getWeight() + "'" +
-                ", height='" + getHeight() + "'" +
-                ", preexistingConditions='" + getPreexistingConditions() + "'" +
-                "}";
+        return "Patient ID: " + patientId +
+                ", Name: " + name + '\'' +
+                ", Age: " + age + " years old" + // Agregar la unidad de medida
+                ", Weight: " + weight + " kg" + // Agregar la unidad de medida
+                ", Height: " + height + " cm" + // Agregar la unidad de medida
+                ", Preexisting Conditions: " + preexistingConditions;
     }
 
 }

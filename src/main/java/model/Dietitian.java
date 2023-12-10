@@ -72,11 +72,9 @@ public class Dietitian {
 
     @Override
     public String toString() {
-        return "{" +
-            " dietitianId='" + getDietitianId() + "'" +
-            ", name='" + getName() + "'" +
-            ", specialty='" + getSpecialty() + "'" +
-            "}";
+        return "Dietitian ID: " + dietitianId +
+                ", Name: " + name +
+                ", Specialty: " + specialty;
     }
 
 }

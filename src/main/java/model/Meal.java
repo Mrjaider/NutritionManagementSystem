@@ -89,11 +89,9 @@ public class Meal {
 
     @Override
     public String toString() {
-        return "{" +
-                " name='" + getName() + "'" +
-                ", macronutrients='" + getMacronutrients() + "'" +
-                ", calories='" + getCalories() + "'" +
-                ", timeOfDay='" + getTimeOfDay() + "'" +
-                "}";
+        return "Meal Name: " + name +
+                ", Macronutrients: " + macronutrients +
+                ", Calories: " + calories +
+                ", Time of Day: " + timeOfDay;
     }
 }
